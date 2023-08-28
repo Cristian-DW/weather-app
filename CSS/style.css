@@ -1,0 +1,122 @@
+/* Reset default margins and paddings */
+body, h1, h2, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f5f5f5;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Center the split sections */
+  .split {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  /* Style the info section */
+  .info {
+    background-color: #ffffff;
+    flex: 1;
+  }
+  
+  /* Style the input section */
+  .input {
+    background-color: #f5f5f5;
+    flex: 1;
+  }
+  
+  /* Center content in the sections */
+  .centered {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the search input */
+  #search {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Style the switch container */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Style the switch slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+  }
+  
+  /* Style the switch round elements */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  /* Style the Celsius/Fahrenheit labels */
+  .slider span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+  }
+  
+  /* Style the temperature display */
+  #temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style other weather information */
+  #city, h6, #cityWeather, #weatherInfo div {
+    margin-top: 10px;
+  }
+  
+  /* Style the location button */
+  .location-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the material icon */
+  .material-icons {
+    font-size: 20px;
+  }
+  
+  /* Style the weather image */
+  #image {
+    max-width: 100px;
+    margin-top: 10px;
+  }
+  
