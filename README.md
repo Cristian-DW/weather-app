@@ -16,7 +16,7 @@ La Weather App es una aplicación simple que proporciona información actualizad
 ## Configuración
 
 - Puedes personalizar la configuración en el archivo `App.js`.
-- Agrega tu clave de API de pronóstico del tiempo en el archivo `App.js`.
+
 
 ## Contribución
 
