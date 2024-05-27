@@ -1,4 +1,4 @@
-# Weather App ☁️ 
+# Weather App
 
 La Weather App es una aplicación simple que proporciona información actualizada sobre el pronóstico del tiempo. Puedes usar esta aplicación para obtener detalles meteorológicos de diferentes ubicaciones.
 
